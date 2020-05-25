@@ -15,6 +15,7 @@ const MovieDetail = () => {
     fetchData();
   }, [movieId]);
   console.log(selected);
+
   return (
     <div className="movieDetailList">
       <div className="movie">
