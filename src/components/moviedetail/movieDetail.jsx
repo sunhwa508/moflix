@@ -6,7 +6,7 @@ import axios from "axios";
 const MovieDetail = () => {
   const [selected, setSelected] = useState({});
   const { movieId } = useParams();
-  const apiurl = "http://www.omdbapi.com/?apikey=cfce499a";
+  const apiurl = "https://www.omdbapi.com/?apikey=cfce499a";
   useEffect(() => {
     const fetchData = async () => {
       const { data } = await axios(apiurl + "&i=" + movieId);
