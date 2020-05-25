@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunhwa508/movie.git"
+    "url": "git+https://github.com/sunhwa508/moflix.git"
   },
   "keywords": [],
   "author": "",
@@ -47,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/sunhwa508/movie/issues"
   },
-  "homepage": "https://sunhwa508.github.io/movie/"
+  "homepage": "https://sunhwa508.github.io/moflix"
 }
