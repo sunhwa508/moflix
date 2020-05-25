@@ -2,7 +2,7 @@
   "name": "metflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sunhwa508.github.io/moflix",
+  "homepage": "https://sunhwa508.github.io/moflix/",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
