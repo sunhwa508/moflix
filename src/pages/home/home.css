@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(241, 235, 235);
+  width: 100vw;
+  padding: 20px;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.movieList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 85vw;
+  margin: auto;
+  grid-gap: 30px;
+}
+
+.moviesresults {
+  width: 300px;
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  border-radius: 10px;
+}
+
+.moviesresults img {
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.moviesresults:hover .desc {
+  opacity: 1;
+}
+.desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.685);
+  color: white;
+  width: 300px;
+  height: 450px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+input {
+  min-width: 400px;
+  padding: 10px;
+  border: none;
+  margin: 20px;
+  margin-bottom: 40px;
+  width: 30%;
+  font-size: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.movieIcon {
+  font-size: 5rem;
+}

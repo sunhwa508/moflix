@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+input {
+  min-width: 300px;
+  padding: 10px;
+  border: none;
+
+  width: 30%;
+  font-size: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 15px;
+}
+.inputdiv {
+  margin: 20px;
+  height: 200px;
+}

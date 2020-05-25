@@ -1,0 +1,65 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.movieDetailList {
+  background-color: rgb(134, 132, 132);
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  width: 80%;
+
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.movie h2 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.movie h3 {
+  font-size: 2rem;
+  color: rgb(250, 7, 7);
+}
+.movie img {
+  width: 400px;
+  border: 10px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.movie p {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+  width: 50%;
+}
+li {
+  padding: 5px;
+  font-size: 1.5rem;
+}
+li:first-child {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
