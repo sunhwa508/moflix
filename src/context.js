@@ -10,7 +10,7 @@ function ContextProvider({ children }) {
     totalResults: "",
   });
 
-  const apiurl = "http://www.omdbapi.com/?apikey=cfce499a&";
+  const apiurl = "https://www.omdbapi.com/?apikey=cfce499a&";
 
   const search = (e) => {
     if (e.key === "Enter") {
