@@ -11,7 +11,7 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/:movieId">
+        <Route exact path="/moflix/:movieId">
           <MovieDetail />
         </Route>
       </Switch>

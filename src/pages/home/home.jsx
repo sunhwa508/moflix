@@ -44,7 +44,7 @@ function App() {
             return (
               <div ref={lastMoviesElementRef} key={movie.imdbID}>
                 <div> {movie.Title}</div>
-                <Link to={`/${movie.imdbID}`}>
+                <Link to={`/moflix/${movie.imdbID}`}>
                   <img src={`${movie.Poster}`} />
                 </Link>
               </div>
@@ -52,7 +52,7 @@ function App() {
           } else {
             return (
               <div className="moviesresults" key={movie.Title}>
-                <Link to={`/${movie.imdbID}`}>
+                <Link to={`/moflix/${movie.imdbID}`}>
                   <img src={`${movie.Poster}`} />{" "}
                 </Link>
                 <div className="desc">
