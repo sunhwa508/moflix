@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/moflix/static/css/main.6de28776.chunk.css",
-    "main.js": "/moflix/static/js/main.d01e1f01.chunk.js",
-    "main.js.map": "/moflix/static/js/main.d01e1f01.chunk.js.map",
+    "main.js": "/moflix/static/js/main.faadfe47.chunk.js",
+    "main.js.map": "/moflix/static/js/main.faadfe47.chunk.js.map",
     "runtime-main.js": "/moflix/static/js/runtime-main.648b5675.js",
     "runtime-main.js.map": "/moflix/static/js/runtime-main.648b5675.js.map",
     "static/js/2.c19f1243.chunk.js": "/moflix/static/js/2.c19f1243.chunk.js",
     "static/js/2.c19f1243.chunk.js.map": "/moflix/static/js/2.c19f1243.chunk.js.map",
     "index.html": "/moflix/index.html",
-    "precache-manifest.7bd5e02d2b66c41e0574c46dc9599f76.js": "/moflix/precache-manifest.7bd5e02d2b66c41e0574c46dc9599f76.js",
+    "precache-manifest.deb9a8f8d6af952e399165831a347997.js": "/moflix/precache-manifest.deb9a8f8d6af952e399165831a347997.js",
     "service-worker.js": "/moflix/service-worker.js",
     "static/css/main.6de28776.chunk.css.map": "/moflix/static/css/main.6de28776.chunk.css.map",
     "static/js/2.c19f1243.chunk.js.LICENSE.txt": "/moflix/static/js/2.c19f1243.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.648b5675.js",
     "static/js/2.c19f1243.chunk.js",
     "static/css/main.6de28776.chunk.css",
-    "static/js/main.d01e1f01.chunk.js"
+    "static/js/main.faadfe47.chunk.js"
   ]
 }
