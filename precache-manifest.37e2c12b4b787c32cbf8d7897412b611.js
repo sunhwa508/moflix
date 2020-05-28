@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df6c031694db4d70f885a303f32081bd",
+    "revision": "6d0a11f75bae5619e182991626fed6a9",
     "url": "/moflix/index.html"
   },
   {
-    "revision": "654baf1330a4d5dd44b2",
-    "url": "/moflix/static/css/main.6de28776.chunk.css"
+    "revision": "bbeac276b94a90ba98a0",
+    "url": "/moflix/static/css/main.135d3400.chunk.css"
   },
   {
     "revision": "3bfb1e2ca75bca09dc4e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moflix/static/js/2.c19f1243.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "654baf1330a4d5dd44b2",
-    "url": "/moflix/static/js/main.e1693dec.chunk.js"
+    "revision": "bbeac276b94a90ba98a0",
+    "url": "/moflix/static/js/main.14133976.chunk.js"
   },
   {
     "revision": "00e15934c163bfac51f1",
