@@ -45,7 +45,7 @@ function App() {
               <div ref={lastMoviesElementRef} key={movie.imdbID}>
                 <div> {movie.Title}</div>
                 <Link to={`/${movie.imdbID}`}>
-                  <img src={`${movie.Poster}`} />
+                  <img className="movieimg" src={`${movie.Poster}`} />
                 </Link>
               </div>
             );
@@ -53,7 +53,7 @@ function App() {
             return (
               <div className="moviesresults" key={movie.Title}>
                 <Link to={`/${movie.imdbID}`}>
-                  <img src={`${movie.Poster}`} />{" "}
+                  <img className="movieimg" src={`${movie.Poster}`} />{" "}
                 </Link>
                 <div className="desc">
                   {movie.Title}

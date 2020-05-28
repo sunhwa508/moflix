@@ -63,3 +63,19 @@ li:first-child {
     -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
     2px 2px 5px #000;
 }
+
+@media screen and (max-width: 768px) {
+  .movie {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+  }
+  .movie h2,
+  .movie h3 {
+    font-size: 1rem;
+  }
+  ul,
+  li {
+    width: 100%;
+  }
+}

@@ -1,4 +1,5 @@
-body {
+body,
+html {
   background-color: rgb(241, 235, 235);
   width: 100vw;
   padding: 20px;
@@ -8,26 +9,49 @@ body {
 
 .movieList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 85vw;
   margin: auto;
-  grid-gap: 30px;
+  grid-gap: 10px;
 }
 
 .moviesresults {
-  width: 300px;
-  height: 450px;
+  width: 200px;
+  height: 300px;
   overflow: hidden;
   margin-bottom: 50px;
   position: relative;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-
   border-radius: 10px;
 }
 
-.moviesresults img {
-  width: 300px;
-  height: 450px;
+@media (max-width: 768px) {
+  .moviesresults {
+    width: 100px;
+    height: 200px;
+  }
+  .movieList {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .movieimg {
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .desc {
+    width: 50%;
+    height: 200px;
+    font-size: 0.5rem;
+  }
+  .movieIcon {
+    font-size: 1rem;
+  }
+}
+
+.movieimg {
+  width: 200px;
+  height: 300px;
   object-fit: cover;
   cursor: pointer;
 }
@@ -40,8 +64,8 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, 0.685);
   color: white;
-  width: 300px;
-  height: 450px;
+  width: 200px;
+  height: 300px;
   opacity: 0;
   transition: all 0.3s ease;
   font-size: 2rem;
@@ -53,7 +77,6 @@ body {
 }
 
 input {
-  min-width: 400px;
   padding: 10px;
   border: none;
   margin: 20px;
