@@ -78,9 +78,6 @@ npm run deploy를 통해 deploy해준다.
 *  const apiurl = "https://www.omdbapi.com/?apikey=MY_API&"; - The API was provided
 * (https://sunhwa508.github.io/moflix/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
