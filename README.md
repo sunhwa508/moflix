@@ -1,6 +1,6 @@
 <h1>MOVIE SEARCH APP</h1>
 
-<img src="https://prnt.sc/spusdh" />
+![content2](https://user-images.githubusercontent.com/61695175/83228634-a2c80900-a1c1-11ea-8334-6a71dbf4cffb.png)
 ## 
 
 In the project directory, you can run:
