@@ -1,5 +1,6 @@
 <h1>MOVIE SEARCH APP</h1>
 
+<img src="https://prnt.sc/spusdh" />
 ## 
 
 In the project directory, you can run:
