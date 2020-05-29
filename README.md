@@ -11,9 +11,9 @@
 
 
 ### Prerequisites
-npx create-react-app moflix Moflix라는 명의 리액트 프로젝트 앱 생성하기
-AJAX통신을 용이하게 도와줄 axios라이브러리 사용
-https://www.omdbapi.com 회원가입후 개인 apikey 생성
+npx create-react-app moflix "Moflix"라는 이름의 리액트 프로젝트 앱 생성하기<br/>
+AJAX통신을 용이하게 도와줄 axios라이브러리 사용<br/>
+https://www.omdbapi.com 회원가입후 개인 apikey 생성<br/>
 
 ### Installing
 react환경구축
