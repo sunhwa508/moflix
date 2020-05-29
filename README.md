@@ -22,8 +22,6 @@ yarn버전 : yarn add react-router-dom
 
 
 
-
-
  SPA구현을 위한 react route설정으로 "react-router-dom": "^5.2.0" 버전 설치
 "gh-pages" 를 이용해 github.io 무료 호스팅 사용
 
@@ -65,15 +63,6 @@ axios를 통한 데이터 통신은 useEffect를 이용해 동기로 처리하�
 
 
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
 ## Deployment
 "homepage": "https://sunhwa508.github.io/moflix/",
 
@@ -113,6 +102,4 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* 처음으로 
