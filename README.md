@@ -9,7 +9,6 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 npx create-react-app moflix Moflix라는 명의 리액트 프로젝트 앱 생성하기
