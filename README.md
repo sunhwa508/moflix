@@ -16,7 +16,8 @@ AJAX통신을 용이하게 도와줄 axios라이브러리 사용
 https://www.omdbapi.com 회원가입후 개인 apikey 생성
 
 ### Installing
-npm버전 : npm i react-router-dom
+react환경구축
+npm버전 : npm i react-router-dom <br />
 yarn버전 : yarn add react-router-dom
 
 
