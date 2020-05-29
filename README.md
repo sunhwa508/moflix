@@ -28,10 +28,10 @@ yarn버전 : yarn add react-router-dom
 
 ## AJAX 데이터 통신 테스트 실행
 
-{  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-  const [hasMore, setHasMore] = useState(false);
-  const [movies, setMovies] = useState([]);}
+const [loading, setLoading] = useState(true);<br/>
+  const [error, setError] = useState(false);<br/>
+  const [hasMore, setHasMore] = useState(false);<br/>
+  const [movies, setMovies] = useState([]);<br/>
 
 로딩중관리, 에러처리, infinite Scroll구현을 위해 마지막 쿼리인지에 필요한 bool변수, 
 데이터를 담을 movies로 useState훅을 사용해 state 구성 
