@@ -1,4 +1,4 @@
-# Project Title
+
 <h1>MOVIE SEARCH APP</h1>
 
 
