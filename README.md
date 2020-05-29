@@ -82,12 +82,12 @@ npm run deploy를 통해 deploy해준다.
 
 ## Versioning
 <ul>
-<li>"react": "^16.13.1",<li>
-<li>"react-dom": "^16.13.1",<li>
-<li>"react-router-dom": "^5.2.0",<li>
-<li>"react-scripts": "3.4.1",<li>
-<li>"scss": "^0.2.4"<li>
-<li>"gh-pages": "^2.2.0"<li>
+<li>"react": "^16.13.1",</li>
+<li>"react-dom": "^16.13.1",</li>
+<li>"react-router-dom": "^5.2.0",</li>
+<li>"react-scripts": "3.4.1",</li>
+<li>"scss": "^0.2.4"</li>
+<li>"gh-pages": "^2.2.0"</li>
 </ul>
 
 ## Authors
