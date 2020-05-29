@@ -101,4 +101,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Acknowledgments
 
-* 처음으로 
+* facebook 뉴스피드를 시작으로 많은 앱, 웹에서 다양하게 사용되고있는 infinite scroll을 직접 한번 구현해 보고싶어 
+이번 movieAPI data를 이용해 useRef기능을 사용하여 inifitescroll app 을 사이드 프로젝트로 진행해보았다.
+처음 axios를 사용하지 않고 직접 자바스크립트 fetch 로만 AJAX통신을 구현하려하니, 코드가 복잡해지고, pageNumber구분이 쉽지 않던 중유튜브에 올라온 AJAX통신 관련 튜토리얼 중 axios라는 라이브러리에 대해 공부하게 되었다.
+복잡한 JS fetch를 구현법을 간단하게 만들어줄 라이브러리, axios를 사용해 json keywords들을 관리하니 너무너무 간편하고 보기 쉽게 코드를 나열 할 수 있어, 큰 어려움 없이 프로젝트를 마칠 수 있었다. 
