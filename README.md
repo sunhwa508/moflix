@@ -1,5 +1,5 @@
 
-<h1>MOVIE SEARCH APP</h1>
+<h1>💻MOVIE SEARCH APP</h1>
 
 
 ![content2](https://user-images.githubusercontent.com/61695175/83228634-a2c80900-a1c1-11ea-8334-6a71dbf4cffb.png)
@@ -10,12 +10,12 @@
 ## Getting Started
 
 
-### Prerequisites
+### ✔Prerequisites
 npx create-react-app moflix "Moflix"라는 이름의 리액트 프로젝트 앱 생성하기<br/>
 AJAX통신을 용이하게 도와줄 axios라이브러리 사용<br/>
 https://www.omdbapi.com 회원가입후 개인 apikey 생성<br/>
 
-### Installing
+### ✔Installing
 react환경구축
 npm버전 : npm i react-router-dom <br />
 yarn버전 : yarn add react-router-dom
@@ -27,7 +27,7 @@ yarn버전 : yarn add react-router-dom
 
 
 
-## AJAX 데이터 통신 테스트 실행
+## ✔AJAX 데이터 통신 테스트 실행
 
 const [loading, setLoading] = useState(true);<br/>
   const [error, setError] = useState(false);<br/>
@@ -63,7 +63,7 @@ axios를 통한 데이터 통신은 useEffect를 이용해 동기로 처리하�
 
 
 
-## Deployment
+## ✔Deployment
 "homepage": "https://sunhwa508.github.io/moflix/",
 
    "predeploy": "npm run-script build",
@@ -74,13 +74,13 @@ package.json에 위와같이 홈페이지와 ""scripts" 의 predeploy, deploy �
 npm run deploy를 통해 deploy해준다.
 
 
-## Built With
+## ✔Built With
 
 *  const apiurl = "https://www.omdbapi.com/?apikey=MY_API&"; - The API was provided
 * (https://sunhwa508.github.io/moflix/) - Used to generate RSS Feeds
 
 
-## Versioning
+## ✔Versioning
 <ul>
 <li>"react": "^16.13.1",</li>
 <li>"react-dom": "^16.13.1",</li>
@@ -90,10 +90,8 @@ npm run deploy를 통해 deploy해준다.
 <li>"gh-pages": "^2.2.0"</li>
 </ul>
 
-## Authors
 
-
-## Acknowledgments
+## ✔Acknowledgments
 
 * facebook 뉴스피드를 시작으로 많은 앱, 웹에서 다양하게 사용되고있는 infinite scroll을 직접 한번 구현해 보고싶어 
 이번 movieAPI data를 이용해 useRef기능을 사용하여 inifitescroll app 을 사이드 프로젝트로 진행해보았다.
