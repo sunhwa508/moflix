@@ -36,7 +36,7 @@ const [loading, setLoading] = useState(true);<br/>
 
 로딩중관리, 에러처리, infinite Scroll구현을 위해 마지막 쿼리인지에 필요한 bool변수, 
 데이터를 담을 movies로 useState훅을 사용해 state 구성 
-
+<pre><code>{
   useEffect(() => {
     setLoading(true);
     setError(false);
@@ -56,8 +56,8 @@ const [loading, setLoading] = useState(true);<br/>
       //로딩중 페이지 출력여부 true/false를 구분하기 위함.
       }
     });
-  }, [query, pageNumber]);
-
+  }, [query, pageNumber]);}
+</code></pre>
 axios를 통한 데이터 통신은 useEffect를 이용해 동기로 처리하였으며, query(검색어), pageNumber이 바뀔때마다
 데이터를 받아오도록 구현하였다.
 
